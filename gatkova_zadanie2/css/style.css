@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    background-color: #faebd7;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+
+h2 {
+    background-color: #deb887;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+h3 {
+    background-color: #ffbe6a;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    background-color: #dfdfdf;
+    font-size: 16px;
+    line-height: 1.5em;
+}
