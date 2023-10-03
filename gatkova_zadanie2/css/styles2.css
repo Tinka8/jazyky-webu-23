@@ -20,3 +20,8 @@ p {
     font-size: 18px;
     line-height: 1.6em;
 }
+
+img {
+    width: 400px;
+    border: 2px solid #ffffff; 
+}
