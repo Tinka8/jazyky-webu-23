@@ -16,16 +16,14 @@
             <div class="flex justify-center text-center uppercase">
                 <a href="./index.html" class="hover:bg-[#6a6a6a] p-6">domov</a>
                 <a href="#S1" class="hover:bg-[#6a6a6a] p-6">obsah</a>
-                <a href="./galeria.html" class="hover:bg-[#6a6a6a] p-6">galéria</a>
-                <a href="./kontakt.html" class="hover:bg-[#6a6a6a] p-6">kontakt</a>
+                <a href="#S2" class="hover:bg-[#6a6a6a] p-6">galéria</a>
+                <a href="#S3" class="hover:bg-[#6a6a6a] p-6">kontakt</a>
             </div>
         </header>
         <main>
             <!-- menu -->
             <div class="relative">
-                <div>
-                    <img src="./img/adventure.jpg" alt="dobrodruzstvo" class="overflow-hidden max-w-screen-lg" />  
-                </div>
+                <img src="./img/adventure.jpg" alt="dobrodruzstvo" class="overflow-hidden max-w-screen-lg" /> 
                 <div class="absolute top-2/3 left-1/2 text-center text-white text-xl">
                     <h1 class="uppercase font-bold">dobrodružstvo</h1>
                     <p>Začína</p>
@@ -44,13 +42,13 @@
                     by Name Surname
                 </p>
             </div>
-            
+
             <div class="border-b border-gray-300"></div>
             <!-- obsah -->
-            <div class="p-10 text-center">
-                <h1 id="S1" class="uppercase text-center font-bold text-2xl">obsah</h1>
+            <div class="text-center">
+                <h1 id="S1" class="uppercase text-center font-bold text-2xl mb-16 mt-16">obsah</h1>
 
-                <div class="bg-[#486366] text-[#edebe4] text-left border-2 border-red-400 rounded-lg p-[15px] my-8">
+                <div class="bg-[#486366] text-[#edebe4] text-left border-2 border-red-400 rounded-lg p-[15px] my-16">
                     <h1>nadpis 1</h1>
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, voluptatibus. 
@@ -64,23 +62,54 @@
                         laborum sint optio esse facilis officiis quae eveniet, nam laudantium?
                     </p>
                 </div>
-                <div class="bg-[#807c71] text-[#c9c9c9] text-right border-2 border-blue-400 rounded-lg p-[15px] mb-8">
+                <div class="bg-[#807c71] text-[#c9c9c9] text-right border-2 border-blue-400 rounded-lg p-[15px]">
                     <h1>nadpis 1</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, animi, officiis 
                         sequi repellat excepturi facere harum, ad quidem accusamus provident amet 
                         temporibus esse necessitatibus consequuntur similique nisi. Vel, quos rem?
                     </p>
-                    <a class="bg-black text-white rounded-lg px-6 py-2">Zdroj</a>
+                    <div class="mt-12 mb-4">
+                        <a href="#" class="bg-black hover:bg-gray-800 text-white rounded-lg px-6 py-2">Zdroj</a>
+                    </div>
+                  
+                </div>
+            </div>
+
+            <div class="border-b border-gray-300 mb-16 mt-8"></div>
+            <!-- galeria -->
+            <div class="text-center">
+                <h2 id="S2" class="uppercase text-center font-bold text-2xl mb-16">galéria</h2>
+                <div class="flex gap-2.5 justify-center">
+                    <img src="./img/img1.jpg" alt="image 1" width="500" height="500" />
+                    <img src="./img/img2.jpg" alt="image 2" width="500" height="500" />
+                    <img src="./img/img3.jpg" alt="image 3" width="500" height="500" />
+                </div>
+            </div>
+
+            <div class="border-b border-gray-300 mb-16 mt-8"></div>
+            <!-- kontakt -->
+            <div class="text-center">
+                <h2 id="S3" class="uppercase text-center font-bold text-2xl mb-16">kontakt</h2>
+
+                <div class="flex flex-col">
+                    <form action="#">
+                        
+                            <label for="email">Meno</label>
+                            <input type="text" id="fname" name="fname" value="meno">
+                        
+                        
+                            <label for="fname">E-mail</label>
+                            <input type="email" id="email" name="email" value="email">
+                       
+                        <input type="email" id="email" name="email" value="email">
+                        <label for="notes">Poznámka</label>
+                        <textarea id="w3review" name="w3review" rows="4" cols="50">Type something...</textarea>
+                    </form>
                 </div>
 
-
-
-
-
-
-
             </div>
+
         </main>
         <footer class="relative pt-24 text-[#707070]">
             Vytvorila: Martina Gaťková 
