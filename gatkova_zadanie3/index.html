@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="zadanie 3">
-        <meta name="keywords" content="HTML, CSS">
-        <meta name="author" content="Martina Gatkova">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta name="description" content="zadanie 3" />
+        <meta name="keywords" content="HTML, CSS" />
+        <meta name="author" content="Martina Gatkova" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>index</title>
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/style.css" />
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body>
         <!-- nav -->
-        <header class=" bg-[#212121] text-[#d3d3d3]">
+        <header class="bg-[#212121] text-[#d3d3d3]">
             <div class="flex justify-center text-center uppercase">
                 <a href="./index.html" class="hover:bg-[#6a6a6a] p-6">domov</a>
                 <a href="#S1" class="hover:bg-[#6a6a6a] p-6">obsah</a>
@@ -23,96 +23,123 @@
         <main>
             <!-- menu -->
             <div class="relative">
-                <img src="./img/adventure.jpg" alt="dobrodruzstvo" class="overflow-hidden max-w-screen-lg" /> 
-                <div class="absolute top-2/3 left-1/2 text-center text-white text-xl">
+                <img src="./img/adventure.jpg" alt="dobrodruzstvo" class="max-w-screen-lg object-center mx-auto w-full" />
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center text-white text-xl">
                     <h1 class="uppercase font-bold">dobrodružstvo</h1>
                     <p>Začína</p>
                 </div>
             </div>
-      
-            <div class="italic text-center mx-auto w-1/4 py-4">
-                <div>"</div>
+
+            <div class="italic text-center mx-auto w-1/4 py-4 font-serif font-semibold">
+                <div class="text-2xl">"</div>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Adipisci deleniti id laudantium, 
-                    veritatis iusto dolorum et quidem provident! 
-                    Id culpa debitis in quo iusto officia. Accusamus ab magni totam voluptas!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
+                    deleniti id laudantium, veritatis iusto dolorum et quidem provident!
+                    Id culpa debitis in quo iusto officia. Accusamus ab magni totam
+                    voluptas!
                 </p>
-                <p>
-                    by Name Surname
-                </p>
+                <p class="text-sm pt-4">by Name Surname</p>
             </div>
 
             <div class="border-b border-gray-300"></div>
             <!-- obsah -->
-            <div class="text-center">
-                <h1 id="S1" class="uppercase text-center font-bold text-2xl mb-16 mt-16">obsah</h1>
+            <div class="text-center max-w-screen-lg mx-auto">
+                <h1 id="S1" class="uppercase text-center font-bold text-2xl mb-16 mt-16">
+                    obsah
+                </h1>
 
                 <div class="bg-[#486366] text-[#edebe4] text-left border-2 border-red-400 rounded-lg p-[15px] my-16">
-                    <h1>nadpis 1</h1>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, voluptatibus. 
-                        Voluptates consequatur molestias ipsum. Suscipit modi assumenda eaque magnam 
-                        sunt dolores, vitae nulla libero id iure quod cumque voluptate asperiores!
+                    <h1 class="text-3xl mb-2 font-bold">nadpis 1</h1>
+                    <p class="mb-4 max-w-lg">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi,
+                        voluptatibus. Voluptates consequatur molestias ipsum. Suscipit modi
+                        assumenda eaque magnam sunt dolores, vitae nulla libero id iure quod
+                        cumque voluptate asperiores!
                     </p>
-                    <h2>nadpis 2</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Possimus ratione labore sed cumque a odit doloremque saepe earum aliquam impedit, 
-                        laborum sint optio esse facilis officiis quae eveniet, nam laudantium?
+
+                    <h2 class="text-2xl mb-1 font-bold">nadpis 2</h2>
+                    <p class="mb-4 max-w-lg">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+                        ratione labore sed cumque a odit doloremque saepe earum aliquam
+                        impedit, laborum sint optio esse facilis officiis quae eveniet, nam
+                        laudantium?
                     </p>
                 </div>
                 <div class="bg-[#807c71] text-[#c9c9c9] text-right border-2 border-blue-400 rounded-lg p-[15px]">
-                    <h1>nadpis 1</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, animi, officiis 
-                        sequi repellat excepturi facere harum, ad quidem accusamus provident amet 
-                        temporibus esse necessitatibus consequuntur similique nisi. Vel, quos rem?
-                    </p>
-                    <div class="mt-12 mb-4">
+                    <h1 class="text-3xl mb-2 font-bold">nadpis 1</h1>
+                    <div class="w-full clear-both overflow-hidden">
+                        <p class="max-w-lg float-right">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+                            animi, officiis sequi repellat excepturi facere harum, ad quidem
+                            accusamus provident amet temporibus esse necessitatibus
+                            consequuntur similique nisi. Vel, quos rem?
+                        </p>
+                    </div>
+                    <div class="mt-12 mb-4 float-none">
                         <a href="#" class="bg-black hover:bg-gray-800 text-white rounded-lg px-6 py-2">Zdroj</a>
                     </div>
-                  
                 </div>
             </div>
 
             <div class="border-b border-gray-300 mb-16 mt-8"></div>
             <!-- galeria -->
-            <div class="text-center">
-                <h2 id="S2" class="uppercase text-center font-bold text-2xl mb-16">galéria</h2>
-                <div class="flex gap-2.5 justify-center">
-                    <img src="./img/img1.jpg" alt="image 1" width="500" height="500" />
-                    <img src="./img/img2.jpg" alt="image 2" width="500" height="500" />
-                    <img src="./img/img3.jpg" alt="image 3" width="500" height="500" />
+            <div class="text-center max-w-screen-lg mx-auto">
+                <h2 id="S2" class="uppercase text-center font-bold text-2xl mb-16">
+                    galéria
+                </h2>
+                <div class="grid grid-cols-3 gap-2.5">
+                    <div>
+                        <img src="./img/img1.jpg" alt="image 1" width="500" height="500"
+                            class="w-full min-h-full object-cover" />
+                    </div>
+                    <div>
+                        <img src="./img/img2.jpg" alt="image 2" width="500" height="500"
+                            class="w-full min-h-full object-cover" />
+                    </div>
+                    <div>
+                        <img src="./img/img3.jpg" alt="image 3" width="500" height="500"
+                            class="w-full min-h-full object-cover" />
+                    </div>
                 </div>
             </div>
 
             <div class="border-b border-gray-300 mb-16 mt-8"></div>
             <!-- kontakt -->
             <div class="text-center">
-                <h2 id="S3" class="uppercase text-center font-bold text-2xl mb-16">kontakt</h2>
+                <h2 id="S3" class="uppercase text-center font-bold text-2xl mb-16">
+                    kontakt
+                </h2>
 
-                <div class="flex flex-col">
-                    <form action="#">
-                        
-                            <label for="email">Meno</label>
-                            <input type="text" id="fname" name="fname" value="meno">
-                        
-                        
-                            <label for="fname">E-mail</label>
-                            <input type="email" id="email" name="email" value="email">
-                       
-                        <input type="email" id="email" name="email" value="email">
-                        <label for="notes">Poznámka</label>
-                        <textarea id="w3review" name="w3review" rows="4" cols="50">Type something...</textarea>
+                <div class="max-w-sm mx-auto">
+                    <form action="#" class="flex flex-col space-y-4">
+                        <div class="text-left">
+                            <label for="fname" class="font-bold block text-sm">Meno</label>
+                            <input type="text" id="fname" name="fname" placeholder="meno"
+                                class="rounded-lg border hover:border-blue-400 px-4 py-1 w-full block" />
+                        </div>
+
+                        <div class="text-left">
+                            <label for="email" class="font-bold block text-sm">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="e-mail"
+                                class="rounded-lg border hover:border-blue-400 px-4 py-1 w-full block" />
+                        </div>
+
+                        <div class="text-left">
+                            <label for="notes" class="font-bold block text-sm">Poznámka</label>
+                            <textarea id="notes" name="notes" rows="8" cols="50" placeholder="Type something..."
+                                class="rounded-lg border hover:border-blue-400 px-4 py-1 w-full block"></textarea>
+                        </div>
+
+                        <div class="text-left">
+                            <input type="submit" value="Odoslať"
+                                class="bg-black hover:bg-gray-800 text-white rounded-lg px-6 py-2" />
+                        </div>
                     </form>
                 </div>
-
             </div>
-
         </main>
         <footer class="relative pt-24 text-[#707070]">
-            Vytvorila: Martina Gaťková 
+            Vytvorila: Martina Gaťková
         </footer>
     </body>
 </html>
