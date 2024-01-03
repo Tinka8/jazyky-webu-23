@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="zadanie 2">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="author" content="Martina Gatkova">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>kalendar</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <style>
+        .main {
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 20px;
+        }
+
+        .box {
+            border: 2px solid black;
+            background-color: aqua;
+            text-align: center;
+            padding: 2%;
+        }
+
+        .box-1-2-4 {
+            flex: 1;
+
+        }
+
+        .box-3 {
+            flex: 3;
+        }
+    </style>
+    <body>
+        <div class="main">
+            <div class="box box-1-2-4">1</div>
+            <div class="box box-1-2-4">2</div>
+            <div class="box box-3">3</div>
+            <div class="box box-1-2-4">4</div>
+        </div>
+
+
+
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="..." alt="Card image cap" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Card title</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Some quick example text to build on the card title
+                    and make up the bulk of the card's content.</p>
+                <a href="#"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 
+                    rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 
+                    dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                    Go somewhere
+                </a>
+            </div>
+        </div>
+
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+
+
+
+
+
+    </body>
+
+</html>
