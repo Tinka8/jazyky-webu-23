@@ -7,8 +7,6 @@ newlist = [word for word in user_input if "o" not in word and "O" not in word an
 print(" ".join(newlist))
 
 
-
-
 class Point:
   def __init__(self, x, y):
     self.x = x
@@ -24,9 +22,11 @@ def add_one(my_list=None):
   my_list.append(1)
   return my_list
 
+
 list_1 = add_one()
 list_2 = add_one()
 print(list_2)
+
 
 original_data = {
   "log": [2, 3]
@@ -34,7 +34,6 @@ original_data = {
 copied_data = dict(original_data)
 copied_data["log"].append(4)
 print(original_data["log"])
-
 
 
 def extract_username(path):
@@ -56,7 +55,6 @@ for coord in coordinates:
 print(total)
 
 
-
 some_list = [[]]
 three_lists = some_list * 3
 three_lists[0].append(1)
@@ -76,7 +74,6 @@ def check_pin(correct_pin, provided_pin):
 print(check_pin("1234", "5678"))
 
 
-
 def add_one(my_list=[]):
   my_list.append(1)
   return my_list
@@ -85,8 +82,6 @@ list_1 = add_one()
 list_2 = add_one()
 list_3 = add_one()
 print(list_3)
-
-
 
 
 trace = []
@@ -104,7 +99,6 @@ finally:
 print(trace)
 
 
-
 phone_numbers = {
   "Amir": "555-1234",
   "Cindy": "601-5362"
@@ -116,12 +110,8 @@ def phone_number_length(name):
 print(phone_number_length("Betty"))
 
 
-
-
-
 visitors = ["Amir", "Betty", "Cindy", "Dalili"]
 print(visitors[0:4:2])
-
 
 
 some_dict = {}
@@ -131,10 +121,8 @@ some_dict["c"] = 3
 print(list(some_dict.keys()))
 
 
-
 winning_ids = [10, 5, 3, 2, 1]
 print(winning_ids[:-2])
-
 
 
 s = "5,3,1,2,4"
@@ -147,20 +135,17 @@ for num in string:
 print(total)
 
 
-
 empty_dict = {}
 print(empty_dict.get("Betty"))
 
+
 print(sum([[1, 2], [3, 4], [5, 6]], start=[]))
-
-
 print([value + 10 for value in range(6)])
 
 
 names = ["Amir", "Betty", "Cindy"]
 
-
+##
 for name in names:
   if name.endswith("y"):
     print(name)
-
