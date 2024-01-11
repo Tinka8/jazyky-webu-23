@@ -7,6 +7,7 @@ newlist = [word for word in user_input if "o" not in word and "O" not in word an
 print(" ".join(newlist))
 
 
+##
 class Point:
   def __init__(self, x, y):
     self.x = x
