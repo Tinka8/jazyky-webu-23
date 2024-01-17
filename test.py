@@ -149,4 +149,107 @@ names = ["Amir", "Betty", "Cindy"]
 ##
 for name in names:
   if name.endswith("y"):
-    print(name)
+    print(name) 
+    
+    
+promise = "I will finish the python loops module!"
+
+for _ in range(5):
+  print(promise)
+  
+for _ in range(2):
+  print(1)
+  
+  
+def swap_tuple_values(t):
+  return (t[1], t[0])
+
+print(swap_tuple_values.__doc__)
+
+
+def extract_username(path):
+  path_components = path.split("/")
+  # Mistakenly refer to `path`, not `path_components`.
+  username = path[2]
+  return username
+
+print(extract_username("/home/amir/proj/"))
+
+data = "abc"
+print(data[10:15])
+
+
+
+a = [100, 200, 300, "auto", 50.04] 
+b = a 
+print(a is b)
+
+print(sum([[1, 2], [3, 4], [5, 6]], start=[]))
+
+
+
+first_indexes = {}
+words = ["apple", "banana", "apple"]
+
+for index, word in enumerate(words):
+  if word not in first_indexes:
+    first_indexes[word] = index
+
+print(first_indexes)
+
+
+firstIndexes = {}
+words = ["apple", "banana", "apple"]
+
+for index, word in enumerate(words):
+  firstIndexes.setdefault(word, index)
+
+print(firstIndexes)
+
+
+
+cat_ages = {
+  "Ms. Fluff": 4,
+  "Keanu": 2
+}
+
+age1 = cat_ages.pop("Ms. Fluff", 0)
+age2 = cat_ages.pop("Keanu", 0)
+age3 = cat_ages.pop("Wilford", 0)
+
+print(age1 + age2 + age3)
+print(cat_ages)
+
+
+
+amir = {
+  "name": "Amir",
+  "coffee_config": {
+    "cream": True,
+  },
+}
+
+# We non-destructively build a new coffee_config dict.
+coffee_config = amir["coffee_config"] | {"cream": False}
+
+print(amir["coffee_config"])
+
+
+
+def define_multiplier(x):
+  def multiplier(y):
+    return x * y
+
+  return multiplier
+
+add_5_percent = define_multiplier(1.05)
+print(add_5_percent(100))
+
+add_20_percent = define_multiplier(1.2)
+print((add_20_percent(100), add_20_percent(200)))
+
+print(define_multiplier(2.5)(200))
+
+
+
+
