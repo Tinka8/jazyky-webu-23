@@ -221,7 +221,6 @@ print(age1 + age2 + age3)
 print(cat_ages)
 
 
-
 amir = {
   "name": "Amir",
   "coffee_config": {
@@ -249,7 +248,4 @@ add_20_percent = define_multiplier(1.2)
 print((add_20_percent(100), add_20_percent(200)))
 
 print(define_multiplier(2.5)(200))
-
-
-
 
