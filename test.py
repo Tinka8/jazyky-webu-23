@@ -251,3 +251,15 @@ print((add_20_percent(100), add_20_percent(200)))
 
 print(define_multiplier(2.5)(200))
 
+
+pole = [0, 1, 2, 3, 4, 5, 6, 7]
+result = pole[2:5:-1]
+print(result)
+
+
+a = ['matematika', 'informatika']
+b = a 
+
+b.append('fyzika')
+print(a)
+
