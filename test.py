@@ -262,4 +262,3 @@ b = a
 
 b.append('fyzika')
 print(a)
-
